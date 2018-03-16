@@ -28,7 +28,7 @@ namespace ContactsSms.Server
 
         }
 
-        public List<Sms> GetMessages()
+        public IEnumerable<Sms> GetMessages(string param)
         {
             List<Sms> Messages = new List<Sms>()
             {
