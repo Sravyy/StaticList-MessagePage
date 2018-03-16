@@ -1,4 +1,6 @@
 FormsViewGroup
+Microsoft.AspNet.SignalR.Client
+Newtonsoft.Json
 System.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
@@ -20,5 +22,16 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
-System.ComponentModel
+System.Resources.ResourceManager
+System.Threading.Tasks
+System.Threading.Timer
+System.Net.Primitives
+System.Text.Encoding
+System.Collections
+System.Dynamic.Runtime
+System.Diagnostics.Debug
+System.Diagnostics.Tools
+System.Globalization
+System.Threading
 System.Reflection.Extensions
+System.ComponentModel

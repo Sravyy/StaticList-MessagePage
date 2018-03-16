@@ -10,26 +10,33 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\SravanthiVelaga%28Inte\source\repos\MessagePageView\MessagePageView\MessagePageView\Views\MainPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\SravanthiVelaga%28Inte\source\repos\MessagePageView\MessagePageView\MessagePageView\Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)MessageView.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\SravanthiVelaga%28Inte\source\repos\MessagePageView\MessagePageView\MessagePageView\Views\MessageView.xaml.cs">
       <DependentUpon>MessageView.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Sms.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)SmsDataTempSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\SravanthiVelaga%28Inte\source\repos\MessagePageView\MessagePageView\MessagePageView\Models\Sms.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\SravanthiVelaga%28Inte\source\repos\MessagePageView\MessagePageView\MessagePageView\CustomCells\SmsDataTempSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SmsContactState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\SignalRClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MessageView.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\SravanthiVelaga%28Inte\source\repos\MessagePageView\MessagePageView\MessagePageView\Views\MessageView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)CustomCells\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
   </ItemGroup>
 </Project>

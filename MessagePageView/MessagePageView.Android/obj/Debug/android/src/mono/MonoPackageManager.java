@@ -108,6 +108,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "MessagePageView.Android.dll" comes first in this list. */
 		"MessagePageView.Android.dll",
 		"FormsViewGroup.dll",
+		"Microsoft.AspNet.SignalR.Client.dll",
+		"Newtonsoft.Json.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",

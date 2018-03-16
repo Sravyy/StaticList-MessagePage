@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Microsoft.AspNet.SignalR.Client/2.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.122203": {
         "type": "package",
         "compile": {
@@ -127,6 +148,27 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Microsoft.AspNet.SignalR.Client/2.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.122203": {
         "type": "package",
         "compile": {
@@ -252,6 +294,27 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Microsoft.AspNet.SignalR.Client/2.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.122203": {
         "type": "package",
         "compile": {
@@ -377,6 +440,27 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Microsoft.AspNet.SignalR.Client/2.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.122203": {
         "type": "package",
         "compile": {
@@ -503,6 +587,51 @@
     }
   },
   "libraries": {
+    "Microsoft.AspNet.SignalR.Client/2.2.3": {
+      "sha512": "VxQ1mTiaamIZMby4LxJg3iF77eJcg0CqhR3FPJxxzUtlZ5llb6D3sarOuc0gUIVytqIrfOzFa2cNRFiUxbK9ew==",
+      "type": "package",
+      "path": "microsoft.aspnet.signalr.client/2.2.3",
+      "files": [
+        "lib/net40/Microsoft.AspNet.SignalR.Client.XML",
+        "lib/net40/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/net45/Microsoft.AspNet.SignalR.Client.XML",
+        "lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/netcore50/Microsoft.AspNet.SignalR.Client.XML",
+        "lib/netcore50/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.XML",
+        "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.XML",
+        "lib/portable-net45+sl50+win+wpa81+wp80/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/portable-win81+wpa81/Microsoft.AspNet.SignalR.Client.XML",
+        "lib/portable-win81+wpa81/Microsoft.AspNet.SignalR.Client.dll",
+        "microsoft.aspnet.signalr.client.2.2.3.nupkg.sha512",
+        "microsoft.aspnet.signalr.client.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "type": "package",
+      "path": "newtonsoft.json/9.0.1",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.9.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
     "Xamarin.Forms/2.5.0.122203": {
       "sha512": "qg7A2IXbVV/5u9qqeiDhRMwpVEsbWKBxzeAtD0rTuntmaDB1Z7WuBg5IK2VBklJbKe2Ps8V9zBfEwgJIqPVJUw==",
       "type": "package",
@@ -692,6 +821,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Microsoft.AspNet.SignalR.Client >= 2.2.3",
       "Xamarin.Forms >= 2.5.0.122203"
     ]
   },
@@ -702,11 +832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\sravanthivelaga(inte\\source\\repos\\MessagePageView\\MessagePageView\\MessagePageView.iOS\\MessagePageView.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\SravanthiVelaga(Inte\\source\\repos\\MessagePageView\\MessagePageView\\MessagePageView.iOS\\MessagePageView.iOS.csproj",
       "projectName": "MessagePageView.iOS",
-      "projectPath": "c:\\users\\sravanthivelaga(inte\\source\\repos\\MessagePageView\\MessagePageView\\MessagePageView.iOS\\MessagePageView.iOS.csproj",
+      "projectPath": "C:\\Users\\SravanthiVelaga(Inte\\source\\repos\\MessagePageView\\MessagePageView\\MessagePageView.iOS\\MessagePageView.iOS.csproj",
       "packagesPath": "C:\\Users\\SravanthiVelaga(Inte\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\sravanthivelaga(inte\\source\\repos\\MessagePageView\\MessagePageView\\MessagePageView.iOS\\obj\\",
+      "outputPath": "C:\\Users\\SravanthiVelaga(Inte\\source\\repos\\MessagePageView\\MessagePageView\\MessagePageView.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -733,6 +863,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Microsoft.AspNet.SignalR.Client": {
+            "target": "Package",
+            "version": "[2.2.3, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[2.5.0.122203, )"
