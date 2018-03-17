@@ -17,10 +17,10 @@ namespace ContactsSms.Server
         {
             var Contacts = new List<SmsContactState>
             {
-                new SmsContactState {ContactName ="Mosh", ContactMobileNumber= 1134230342, LastMessageOn="Hello"},
-                new SmsContactState {ContactName ="Bob", ContactMobileNumber= 1134230542, LastMessageOn="Hi"},
-                new SmsContactState {ContactName ="Dan", ContactMobileNumber= 1134232342, LastMessageOn="Whatup"},
-                new SmsContactState {ContactName ="Jhon", ContactMobileNumber= 1134209762, LastMessageOn="Hey"}
+                new SmsContactState {ContactName ="Mosh kjggg",ContactMobileNumber= 1234567890, LastMessageOn="Hi There" },
+                new SmsContactState {ContactName ="Milly", ContactMobileNumber= 1234567890, LastMessageOn="Hi" },
+                new SmsContactState {ContactName ="John", ContactMobileNumber= 1234567890, LastMessageOn="wats up!"  },
+                new SmsContactState {ContactName ="Shon", ContactMobileNumber= 1234567890, LastMessageOn="u thr?"  }
 
             };
 

@@ -8,7 +8,8 @@ using Xamarin.Forms;
 namespace MessagePageView
 {
 	public partial class MainPage : ContentPage
-	{
+	{   
+
 		public MainPage()
 		{
 			InitializeComponent();
@@ -17,6 +18,7 @@ namespace MessagePageView
         protected override void OnAppearing()
         {
             this.MainViewModelContactList.Load();
+            //listView.ItemsSource = this.MainViewModelContactList.ContactList;
         }
     }
 }

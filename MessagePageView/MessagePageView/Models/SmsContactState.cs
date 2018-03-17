@@ -10,5 +10,9 @@ namespace MessagePageView.Models
         public int ContactMobileNumber { get; set; }
         public string LastMessageOn { get; set; }
         public virtual ICollection<Sms> Messages { get; set; }
+
+        //public string Name { get; set; }
+        //public string ImageUrl { get; set; }
+        //public string Status { get; set; }
     }
 }

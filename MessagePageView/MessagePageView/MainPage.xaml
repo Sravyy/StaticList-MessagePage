@@ -9,8 +9,10 @@
 	<ContentPage.BindingContext>
         <ViewModels:MainViewModel x:Name="MainViewModelContactList" />
     </ContentPage.BindingContext>
-
-    <ListView ItemsSource="{Binding ContactList}" HasUnevenRows="true">
+    
+    <ListView ItemsSource="{Binding ContactList}" 
+              HasUnevenRows="true"
+              >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

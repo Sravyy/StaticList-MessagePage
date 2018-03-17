@@ -13,7 +13,7 @@ namespace MessagePageView
 		{
 			InitializeComponent();
 
-			MainPage = new MessageView();
+			MainPage = new MainPage();
 		}
 
 		protected override void OnStart ()
