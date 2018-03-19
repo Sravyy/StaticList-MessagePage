@@ -17,9 +17,7 @@ namespace MessagePageView
 
         protected override void OnAppearing()
         {
-            this.MainViewModelContactList.Load();
-           
-            
+            this.MainViewModelContactList.Load(); 
         }
 
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
@@ -34,6 +32,14 @@ namespace MessagePageView
            
             Console.WriteLine();
             //listView.ItemsSource = filteredList;
+        }
+
+        private void listView_Refreshing(object sender, EventArgs e)
+        {
+            var itemlist = this.MainViewModelContactList.ContactList;
+            listView.ItemsSource = itemlist;
+            listView.EndRefresh();
+            //or listView.IsRefreshing = "false"
         }
     }
 }

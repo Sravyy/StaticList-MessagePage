@@ -16,6 +16,8 @@
         <ListView x:Name="listView"
                 ItemsSource="{Binding ContactList}" 
               HasUnevenRows="true"
+               IsPullToRefreshEnabled="True"
+               Refreshing="listView_Refreshing"   
               >
             <ListView.ItemTemplate>
                 <DataTemplate>
