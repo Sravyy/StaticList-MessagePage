@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:MessagePageView; assembly=MessagePageView"
              x:Class="MessagePageView.MessageView"
              xmlns:ViewModels="clr-namespace:MessagePageView.ViewModels; assembly=MessagePageView"
+             xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
              >
 
     <ContentPage.BindingContext>
@@ -33,8 +34,12 @@
                                         <Label Text="{Binding Message}" FontSize="10" />
                                         <Label Grid.Row="1" FontSize="5" Grid.Column="1" HorizontalTextAlignment="End"  Text="{Binding TimeStamp, StringFormat='{0:MM/dd/yyyy hh:mm tt}'}" TextColor="Gray"></Label>
                                     </StackLayout>
-                                    <Image Source="{Binding ImageUrl}" />
-                                </StackLayout>
+                                <ic:CircleImage
+                                    WidthRequest="40"
+                                    HeightRequest="40"
+                                    Aspect="AspectFit"
+                                    Source="{Binding ImageUrl}"/>
+                            </StackLayout>
                             </Frame>
                         </ViewCell.View>
                     </ViewCell>
@@ -51,8 +56,12 @@
                                     <OnPlatform x:TypeArguments="Color" iOS="#F5F5F5" Android="White"/>
                                 </Frame.BackgroundColor>
                                 <StackLayout Orientation="Horizontal"  >
-                                    <Image Source="{Binding ImageUrl}" />
-                                    <StackLayout>
+                                <ic:CircleImage
+                                    WidthRequest="40"
+                                    HeightRequest="40"
+                                    Aspect="AspectFit"
+                                    Source="{Binding ImageUrl}"/>
+                                <StackLayout>
                                         <!--<StackLayout Orientation="Horizontal">
                                     <Label Text="{Binding FromUser}" FontSize="10" TextColor="Purple"/>
                                     <Label Text=" To " FontSize="10"/>

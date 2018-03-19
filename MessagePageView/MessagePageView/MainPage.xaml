@@ -24,8 +24,8 @@
                     <ViewCell>
                         <StackLayout Orientation="Horizontal" Padding="3">
                             <ic:CircleImage
-                                WidthRequest="50"
-                                HeightRequest="50"
+                                WidthRequest="40"
+                                HeightRequest="40"
                                 Aspect="AspectFit"
                                 Source="{Binding ImageUrl}"/>
                             <StackLayout HorizontalOptions="StartAndExpand">
