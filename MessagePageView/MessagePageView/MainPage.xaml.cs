@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using MessagePageView.Models;
+using MessagePageView.ViewModels;
+using MessagePageView.Services;
 
 namespace MessagePageView
 {
@@ -40,6 +43,19 @@ namespace MessagePageView
             listView.ItemsSource = itemlist;
             listView.EndRefresh();
             //or listView.IsRefreshing = "false"
+        }
+
+        private async void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem == null)
+                return;
+
+            var contact = e.SelectedItem as SmsContactState;
+            Sms sms = new Sms();
+            var itemlist = this.MainViewModelContactList.MessageList;
+
+            await Navigation.PushModalAsync(new MessageView(contact));
+            listView.SelectedItem = null;
         }
     }
 }

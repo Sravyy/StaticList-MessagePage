@@ -29,7 +29,7 @@
                                     <Label Text=" To " FontSize="10"/>
                                     <Label Text="{Binding ToUser}" FontSize="10" TextColor="Purple"/>
                                 </StackLayout>-->
-
+                                        
                                         <Label Text="{Binding Message}" FontSize="10" />
                                         <Label Grid.Row="1" FontSize="5" Grid.Column="1" HorizontalTextAlignment="End"  Text="{Binding TimeStamp, StringFormat='{0:MM/dd/yyyy hh:mm tt}'}" TextColor="Gray"></Label>
                                     </StackLayout>

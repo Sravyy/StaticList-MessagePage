@@ -18,13 +18,27 @@ namespace MessagePageView.Services
 
         public HubConnection Hub { get { return _hub; } }
 
-        public SignalRClient()
+        private SignalRClient()
         {
             Debug.WriteLine("SignalR Initialized...");
             InitializeSignalR().ContinueWith(task =>
             {
                 Debug.WriteLine("SignalR Started...");
             });
+        }
+
+        private static SignalRClient instance;
+
+        public static SignalRClient Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new SignalRClient();
+                }
+                return instance;
+            }
         }
 
         public async Task InitializeSignalR()

@@ -18,7 +18,7 @@
               HasUnevenRows="true"
                IsPullToRefreshEnabled="True"
                Refreshing="listView_Refreshing"   
-              >
+               ItemSelected="listView_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

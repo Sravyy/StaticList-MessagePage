@@ -11,8 +11,6 @@ namespace MessagePageView.ViewModels
     public class MainViewModel : INotifyPropertyChanged
     {
 
-        private readonly SignalRClient signalR;
-
         private List<SmsContactState> _contactList;
         public List<SmsContactState> ContactList
         {
@@ -37,16 +35,13 @@ namespace MessagePageView.ViewModels
 
         public MainViewModel()
         {
-            signalR = new SignalRClient();
 
-            //var contactServices = new SmsContactStateServices();
-            //ContactList = contactServices.GetContacts();
         }
 
         public void Load()
         {
-            ContactList = signalR.GetContacts();
-            MessageList = signalR.GetMessages();
+            ContactList = SignalRClient.Instance.GetContacts();
+            MessageList = SignalRClient.Instance.GetMessages();
         }
         #region INotifyPropertyChanged Members
         public event PropertyChangedEventHandler PropertyChanged;
