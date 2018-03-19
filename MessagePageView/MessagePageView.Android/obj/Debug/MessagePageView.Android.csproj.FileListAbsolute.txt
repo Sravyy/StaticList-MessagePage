@@ -55,7 +55,6 @@ C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\Messa
 C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
 C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\MessagePageView.Android.csprojResolveAssemblyReference.cache
 C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\bin\Debug\MessagePageView.Android.dll.mdb
 C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\ImageCircle.Forms.Plugin.Android.dll.mdb
@@ -76,10 +75,3 @@ C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\Messa
 C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
 C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.Xml.Linq.pdb
 C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.Xml.pdb
-C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\bin\Debug\MessagePageView.Android.dll
-C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\linksrc\MessagePageView.Android.dll.mdb
-C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
-C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\linksrc\ImageCircle.Forms.Plugin.Android.dll.mdb
-C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
-C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\SravanthiVelaga(Inte\source\repos\MessagePageView\MessagePageView\MessagePageView.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb

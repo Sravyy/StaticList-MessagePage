@@ -24,7 +24,9 @@ namespace ContactsSms.Server
 
             };
 
-            return Contacts;
+            
+                return Contacts;
+          
 
         }
 

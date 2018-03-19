@@ -18,7 +18,22 @@ namespace MessagePageView
         protected override void OnAppearing()
         {
             this.MainViewModelContactList.Load();
-            //listView.ItemsSource = this.MainViewModelContactList.ContactList;
+           
+            
+        }
+
+        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+            var itemlist = this.MainViewModelContactList.ContactList;
+
+            if (string.IsNullOrWhiteSpace(e.NewTextValue))
+                listView.ItemsSource = itemlist;
+            else
+                listView.ItemsSource = itemlist.Where(l => l.ContactName.ToUpper().Contains(e.NewTextValue.ToUpper()));
+           
+            Console.WriteLine();
+            //listView.ItemsSource = filteredList;
         }
     }
 }

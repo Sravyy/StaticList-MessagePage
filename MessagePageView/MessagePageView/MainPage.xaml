@@ -4,26 +4,32 @@
              xmlns:local="clr-namespace:MessagePageView"
              x:Class="MessagePageView.MainPage"
             xmlns:ViewModels="clr-namespace:MessagePageView.ViewModels; assembly=MessagePageView"
-                >
+            xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+            Title="Contacts">
 
 	<ContentPage.BindingContext>
         <ViewModels:MainViewModel x:Name="MainViewModelContactList" />
     </ContentPage.BindingContext>
     
-    <ListView ItemsSource="{Binding ContactList}" 
+    <StackLayout>
+        <SearchBar Placeholder="Search Contacts" TextChanged="SearchBar_TextChanged" HeightRequest="40"/>
+        <ListView x:Name="listView"
+                ItemsSource="{Binding ContactList}" 
               HasUnevenRows="true"
               >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                     <StackLayout Orientation="Horizontal">
-                        <Label Text="{Binding ContactName}"/>
-                        <Label Text="{Binding ContactMobileNumber}"/>
-                        <Label Text="{Binding LastMessageOn}"/>
-                    </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding ContactName}"/>
+                            <Label Text="{Binding ContactMobileNumber}"/>
+                            <Label Text="{Binding LastMessageOn}"/>
+                        </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
 
         </ListView>
+    </StackLayout>
+    
 </ContentPage>
