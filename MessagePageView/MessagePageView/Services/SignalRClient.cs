@@ -26,7 +26,7 @@ namespace MessagePageView.Services
                 Debug.WriteLine("SignalR Started...");
             });
         }
-
+    //create SignalR singleton instance
         private static SignalRClient instance;
 
         public static SignalRClient Instance

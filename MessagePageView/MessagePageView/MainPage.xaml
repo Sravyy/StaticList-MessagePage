@@ -22,10 +22,17 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Orientation="Horizontal">
-                            <Label Text="{Binding ContactName}"/>
-                            <Label Text="{Binding ContactMobileNumber}"/>
-                            <Label Text="{Binding LastMessageOn}"/>
+                        <StackLayout Orientation="Horizontal" Padding="3">
+                            <ic:CircleImage
+                                WidthRequest="50"
+                                HeightRequest="50"
+                                Aspect="AspectFit"
+                                Source="{Binding ImageUrl}"/>
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="{Binding ContactName}"/>
+                                <Label Text="{Binding ContactMobileNumber}"/>
+                                <Label Text="{Binding LastMessageOn}" TextColor="HotPink"/>
+                            </StackLayout>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

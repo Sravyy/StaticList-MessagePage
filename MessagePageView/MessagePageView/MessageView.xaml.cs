@@ -24,6 +24,7 @@ namespace MessagePageView
         {
             this.MainViewModelMessageList.Load();
             listMessages.ItemsSource = this.MainViewModelMessageList.MessageList;
+            
         }
     }
 }
