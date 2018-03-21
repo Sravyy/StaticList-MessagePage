@@ -921,11 +921,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SravanthiVelaga(Inte\\source\\repos\\MessagePageView\\MessagePageView\\MessagePageView.iOS\\MessagePageView.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\SravanthiVelaga(Inte\\Desktop\\StaticList-MessagePage\\MessagePageView\\MessagePageView.iOS\\MessagePageView.iOS.csproj",
       "projectName": "MessagePageView.iOS",
-      "projectPath": "C:\\Users\\SravanthiVelaga(Inte\\source\\repos\\MessagePageView\\MessagePageView\\MessagePageView.iOS\\MessagePageView.iOS.csproj",
+      "projectPath": "C:\\Users\\SravanthiVelaga(Inte\\Desktop\\StaticList-MessagePage\\MessagePageView\\MessagePageView.iOS\\MessagePageView.iOS.csproj",
       "packagesPath": "C:\\Users\\SravanthiVelaga(Inte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SravanthiVelaga(Inte\\source\\repos\\MessagePageView\\MessagePageView\\MessagePageView.iOS\\obj\\",
+      "outputPath": "C:\\Users\\SravanthiVelaga(Inte\\Desktop\\StaticList-MessagePage\\MessagePageView\\MessagePageView.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

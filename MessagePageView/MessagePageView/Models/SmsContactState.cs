@@ -6,6 +6,7 @@ namespace MessagePageView.Models
 {
     public class SmsContactState
     {
+        public int ContactId { get; set; }
         public string ContactName { get; set; }
         public int ContactMobileNumber { get; set; }
         public string LastMessageOn { get; set; }

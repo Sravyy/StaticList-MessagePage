@@ -12,6 +12,19 @@ namespace ContactsSms.Server
     [HubName("MyHub")]
     public class MyHub : Hub
     {
+        List<Sms> Messages = new List<Sms>()
+        {
+            new Sms{ FromUser ="Mosh", ToUser= "Dan", Message="Hi", TimeStamp= DateTime.Now, Status="Received", ImageUrl = "http://lorempixel.com/100/100/people/1"},
+            new Sms{ FromUser ="Dan", ToUser= "Mosh", Message="Hi", TimeStamp= DateTime.Now, Status="Sent", ImageUrl = "http://lorempixel.com/100/100/people/5"},
+            new Sms{ FromUser ="Mosh", ToUser= "Dan", Message="Hi", TimeStamp= DateTime.Now, Status="Received", ImageUrl = "http://lorempixel.com/100/100/people/5"},
+            new Sms{ FromUser ="Dan", ToUser= "Mosh", Message="Hi", TimeStamp= DateTime.Now, Status="Sent", ImageUrl = "http://lorempixel.com/100/100/people/1"},
+            new Sms{ FromUser ="Mosh", ToUser= "Dan", Message="Hi", TimeStamp= DateTime.Now, Status="Received", ImageUrl = "http://lorempixel.com/100/100/people/5"}
+        };
+
+        public void AddNewMessage(Sms sms)
+        {
+            Messages.Add(sms);
+        }
 
         public IEnumerable<SmsContactState> GetContacts(string param)
         {
@@ -23,23 +36,13 @@ namespace ContactsSms.Server
                 new SmsContactState {ContactName ="Shon", ContactMobileNumber= 1203456590, ImageUrl = "http://lorempixel.com/100/100/people/9", LastMessageOn="u thr?"  }
 
             };
-
             
-                return Contacts;
-          
-
+             return Contacts;
         }
 
         public IEnumerable<Sms> GetMessages(string param)
         {
-            List<Sms> Messages = new List<Sms>()
-            {
-                new Sms{ FromUser ="Mosh", ToUser= "Dan", Message="Hi", TimeStamp= DateTime.Now, Status="Received", ImageUrl = "http://lorempixel.com/100/100/people/1"},
-                new Sms{ FromUser ="Dan", ToUser= "Mosh", Message="Hi", TimeStamp= DateTime.Now, Status="Sent", ImageUrl = "http://lorempixel.com/100/100/people/5"},
-                new Sms{ FromUser ="Mosh", ToUser= "Dan", Message="Hi", TimeStamp= DateTime.Now, Status="Received", ImageUrl = "http://lorempixel.com/100/100/people/5"},
-                new Sms{ FromUser ="Dan", ToUser= "Mosh", Message="Hi", TimeStamp= DateTime.Now, Status="Sent", ImageUrl = "http://lorempixel.com/100/100/people/1"},
-                new Sms{ FromUser ="Mosh", ToUser= "Dan", Message="Hi", TimeStamp= DateTime.Now, Status="Received", ImageUrl = "http://lorempixel.com/100/100/people/5"}
-            };
+            
             return Messages;
         }
 

@@ -13,5 +13,7 @@ namespace ContactsSms.Server.Models
         public string ImageUrl { get; set; }
         public DateTime TimeStamp { get; set; }
         public string Status { get; set; }
+        public int ContactId { get; set; }
+        public virtual SmsContactState SmsContactState { get; set; }
     }
 }

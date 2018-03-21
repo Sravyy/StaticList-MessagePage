@@ -11,8 +11,8 @@
 namespace MessagePageView {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\SravanthiVelaga(Inte\\source\\repos\\MessagePageView\\MessagePageView\\Messag" +
-        "ePageView\\MessageView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\SravanthiVelaga(Inte\\Desktop\\StaticList-MessagePage\\MessagePageView\\Mess" +
+        "agePageView\\MessageView.xaml")]
     public partial class MessageView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

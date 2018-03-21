@@ -11,8 +11,8 @@
 namespace MessagePageView {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\SravanthiVelaga(Inte\\source\\repos\\MessagePageView\\MessagePageView\\Messag" +
-        "ePageView\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\SravanthiVelaga(Inte\\Desktop\\StaticList-MessagePage\\MessagePageView\\Mess" +
+        "agePageView\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

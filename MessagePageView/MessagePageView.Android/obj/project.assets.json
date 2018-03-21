@@ -808,11 +808,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SravanthiVelaga(Inte\\source\\repos\\MessagePageView\\MessagePageView\\MessagePageView.Android\\MessagePageView.Android.csproj",
+      "projectUniqueName": "C:\\Users\\SravanthiVelaga(Inte\\Desktop\\StaticList-MessagePage\\MessagePageView\\MessagePageView.Android\\MessagePageView.Android.csproj",
       "projectName": "MessagePageView.Android",
-      "projectPath": "C:\\Users\\SravanthiVelaga(Inte\\source\\repos\\MessagePageView\\MessagePageView\\MessagePageView.Android\\MessagePageView.Android.csproj",
+      "projectPath": "C:\\Users\\SravanthiVelaga(Inte\\Desktop\\StaticList-MessagePage\\MessagePageView\\MessagePageView.Android\\MessagePageView.Android.csproj",
       "packagesPath": "C:\\Users\\SravanthiVelaga(Inte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SravanthiVelaga(Inte\\source\\repos\\MessagePageView\\MessagePageView\\MessagePageView.Android\\obj\\",
+      "outputPath": "C:\\Users\\SravanthiVelaga(Inte\\Desktop\\StaticList-MessagePage\\MessagePageView\\MessagePageView.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
