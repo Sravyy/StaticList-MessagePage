@@ -6,6 +6,7 @@ C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\Mes
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\Microsoft.AspNet.SignalR.Client.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\Mono.Android.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\mscorlib.dll
+C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\MvvmHelpers.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.Core.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.dll
@@ -57,10 +58,10 @@ C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\Mes
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.Globalization.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.Xml.XDocument.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
-C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\android\assets\Microsoft.CSharp.dll

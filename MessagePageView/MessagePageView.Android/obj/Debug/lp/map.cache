@@ -2,6 +2,7 @@ FormsViewGroup
 ImageCircle.Forms.Plugin.Abstractions
 ImageCircle.Forms.Plugin.Android
 Microsoft.AspNet.SignalR.Client
+MvvmHelpers
 Newtonsoft.Json
 System.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable

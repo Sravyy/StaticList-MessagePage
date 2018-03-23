@@ -23,6 +23,15 @@
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
+      "Refractored.MvvmHelpers/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/MvvmHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/MvvmHelpers.dll": {}
+        }
+      },
       "Xam.Plugins.Forms.ImageCircle/2.0.2": {
         "type": "package",
         "dependencies": {
@@ -372,6 +381,19 @@
         "newtonsoft.json.9.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "Refractored.MvvmHelpers/1.3.0": {
+      "sha512": "IBBHbITCvULc5f5/QH4qB7WBgiGg7BdeKtA5nsBeAXDlhOBWwNt50TBjQOK/s5cm3O+0puDB8n68Yyd9m3JHWQ==",
+      "type": "package",
+      "path": "refractored.mvvmhelpers/1.3.0",
+      "files": [
+        "lib/netstandard1.0/MvvmHelpers.deps.json",
+        "lib/netstandard1.0/MvvmHelpers.dll",
+        "lib/netstandard1.0/MvvmHelpers.pdb",
+        "lib/netstandard1.0/MvvmHelpers.xml",
+        "refractored.mvvmhelpers.1.3.0.nupkg.sha512",
+        "refractored.mvvmhelpers.nuspec"
       ]
     },
     "Xam.Plugins.Forms.ImageCircle/2.0.2": {
@@ -792,6 +814,7 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v7.1": [
       "Microsoft.AspNet.SignalR.Client >= 2.2.3",
+      "Refractored.MvvmHelpers >= 1.3.0",
       "Xam.Plugins.Forms.ImageCircle >= 2.0.2",
       "Xamarin.Android.Support.Design >= 25.4.0.2",
       "Xamarin.Android.Support.v4 >= 25.4.0.2",
@@ -842,6 +865,10 @@
           "Microsoft.AspNet.SignalR.Client": {
             "target": "Package",
             "version": "[2.2.3, )"
+          },
+          "Refractored.MvvmHelpers": {
+            "target": "Package",
+            "version": "[1.3.0, )"
           },
           "Xam.Plugins.Forms.ImageCircle": {
             "target": "Package",

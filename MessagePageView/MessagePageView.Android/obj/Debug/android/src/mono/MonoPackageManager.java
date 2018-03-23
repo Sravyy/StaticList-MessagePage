@@ -111,6 +111,7 @@ class MonoPackageManager_Resources {
 		"ImageCircle.Forms.Plugin.Abstractions.dll",
 		"ImageCircle.Forms.Plugin.Android.dll",
 		"Microsoft.AspNet.SignalR.Client.dll",
+		"MvvmHelpers.dll",
 		"Newtonsoft.Json.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",

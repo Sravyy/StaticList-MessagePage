@@ -2,6 +2,7 @@
 using Microsoft.AspNet.SignalR.Client;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -43,7 +44,7 @@ namespace MessagePageView.Services
 
         public async Task InitializeSignalR()
         {
-            _hub = new HubConnection("http://9692cfba.ngrok.io");
+            _hub = new HubConnection(" http://8665a30c.ngrok.io");
             _smsHubProxy = _hub.CreateHubProxy("MyHub");
 
             _hub.StateChanged += state =>
@@ -62,16 +63,22 @@ namespace MessagePageView.Services
             _hub.TraceLevel = TraceLevels.All;
             _hub.TraceWriter = Console.Out;
 
-            //_smsHubProxy.On<List<SmsContactState>>("PassContactsToClients", contacts =>
-            //{
-            //    Console.WriteLine(contacts);
-            //});
+
+            //_smsHubProxy.On<Sms>("Add", sms => GetMessages());
 
             await _hub.Start();
-
-
-
         }
+
+
+        public Sms AddNewMessage(string message)
+        {
+            while (_hub.State != ConnectionState.Connected) Thread.Sleep(500);
+            var Task=  _smsHubProxy.Invoke<Sms>("AddNewMessage", message);
+            Task.Wait();
+            return Task.Result;
+            
+        }
+
 
         public List<SmsContactState> GetContacts()
         {

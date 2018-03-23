@@ -87,13 +87,15 @@
                 <Label Text="Sms Messages" FontSize="20" />
             <ListView ItemsSource="{Binding MessageList}" x:Name="listMessages" HasUnevenRows="True" ItemTemplate="{StaticResource SmsDataTempSelector}" />
                 <Entry 
-			    HorizontalOptions="FillAndExpand" 
-				HeightRequest="40" 
-				Placeholder="Message" />
-                <!--Text="{Binding OutGoingText}"-->
+			            HorizontalOptions="FillAndExpand" 
+				        HeightRequest="40" 
+				        Placeholder="Message" 
+                Text="{Binding OutGoingText}"/>
+                
                 <Button 
-				Text="Send" />
-                <!--Command="{Binding SendCommand}"/>-->
+				          Text="Send" 
+                  Command="{Binding SendCommand}" />
+               
             </StackLayout>
         </ContentPage.Content>
   

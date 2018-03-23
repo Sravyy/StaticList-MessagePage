@@ -7,6 +7,7 @@ using MessagePageView.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MessagePageView.Services;
+using System.Collections.ObjectModel;
 
 namespace MessagePageView
 {
@@ -16,7 +17,6 @@ namespace MessagePageView
 		public MessageView (SmsContactState contact)
 		{
 			InitializeComponent ();
-           
             listMessages.ItemsSource = SignalRClient.Instance.GetMessages();
 		}
 
@@ -24,7 +24,16 @@ namespace MessagePageView
         {
             this.MainViewModelMessageList.Load();
             listMessages.ItemsSource = this.MainViewModelMessageList.MessageList;
+           
+            //ObservableCollection<Sms> updateCollection = new ObservableCollection<Sms>(this.MainViewModelMessageList.MessageList);
+            //listMessages.ItemsSource = updateCollection;
             
+            //updateCollection.CollectionChanged += (sender, e) =>
+            //{
+            //    var target = updateCollection[updateCollection.Count - 1];
+            //    listMessages.ScrollTo(target, ScrollToPosition.End, true);
+            //};
         }
     }
 }
+

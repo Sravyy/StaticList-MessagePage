@@ -2,7 +2,7 @@
 <Paths>
   <Jars>
     <Jar>obj\Debug\lp\0\jl\formsviewgroup.jar</Jar>
-    <Jar>obj\Debug\lp\7\jl\support-annotations.jar</Jar>
+    <Jar>obj\Debug\lp\8\jl\support-annotations.jar</Jar>
     <Jar>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\0\jl\formsviewgroup.jar</Jar>
     <Jar>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\10\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\11\jl\bin\classes.jar</Jar>
@@ -16,31 +16,31 @@
     <Jar>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\19\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\20\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\21\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\6\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\7\jl\support-annotations.jar</Jar>
-    <Jar>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\8\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\22\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\7\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\8\jl\support-annotations.jar</Jar>
     <Jar>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\9\jl\bin\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\11\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\14\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\12\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\15\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\16\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\17\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\18\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\20\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\19\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\21\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj\Debug\lp\15\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\16\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\11.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\14.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\12.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\15.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\16.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\17.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\18.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\20.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\19.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\MessagePageView\MessagePageView.Android\obj\Debug\lp\21.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

@@ -32,10 +32,7 @@ namespace MessagePageView
                 listView.ItemsSource = itemlist;
             else
                 listView.ItemsSource = itemlist.Where(l => l.ContactName.ToUpper().Contains(e.NewTextValue.ToUpper()));
-                //listView.ItemsSource = itemlist.Where(l => l.ContactMobileNumber.IndexOf(e.NewTextValue));
 
-            Console.WriteLine();
-            //listView.ItemsSource = filteredList;
         }
 
         private void listView_Refreshing(object sender, EventArgs e)
