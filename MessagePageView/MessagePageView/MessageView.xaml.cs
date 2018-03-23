@@ -13,7 +13,7 @@ namespace MessagePageView
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class MessageView : ContentPage
-	{
+    {
 		public MessageView (SmsContactState contact)
 		{
 			InitializeComponent ();
@@ -34,6 +34,10 @@ namespace MessagePageView
             //    listMessages.ScrollTo(target, ScrollToPosition.End, true);
             //};
         }
+
+    
     }
+
+    
 }
 

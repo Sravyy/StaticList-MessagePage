@@ -116,3 +116,4 @@ C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\obj\Debug\ContactsSms.Server.csproj.CopyComplete
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\obj\Debug\ContactsSms.Server.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\obj\Debug\ContactsSms.Server.pdb
+C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\obj\Debug\ContactsSms.Server.csprojResolveAssemblyReference.cache

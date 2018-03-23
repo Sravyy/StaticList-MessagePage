@@ -13,7 +13,7 @@ namespace ContactsSms.Server
     [HubName("MyHub")]
     public class MyHub : Hub
     {
-        ObservableCollection<Sms> Messages = new ObservableCollection<Sms>()
+        List<Sms> Messages = new List<Sms>()
         {
             new Sms{ ContactId=1, FromUser ="Mosh", ToUser= "Dan", Message="Hi", TimeStamp= DateTime.Now, Status="Received", ImageUrl = "http://lorempixel.com/100/100/people/1"},
             new Sms{ ContactId=2, FromUser ="John", ToUser= "Mosh", Message="Hi", TimeStamp= DateTime.Now, Status="Sent", ImageUrl = "http://lorempixel.com/100/100/people/5"},
