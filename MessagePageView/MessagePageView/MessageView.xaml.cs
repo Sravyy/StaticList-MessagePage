@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MessagePageView.Services;
 using System.Collections.ObjectModel;
+using MvvmHelpers;
 
 namespace MessagePageView
 {
@@ -24,10 +25,10 @@ namespace MessagePageView
         {
             this.MainViewModelMessageList.Load();
             listMessages.ItemsSource = this.MainViewModelMessageList.MessageList;
-           
-            //ObservableCollection<Sms> updateCollection = new ObservableCollection<Sms>(this.MainViewModelMessageList.MessageList);
+
+            //ObservableRangeCollection<Sms> updateCollection = new ObservableRangeCollection<Sms>(this.MainViewModelMessageList.MessageList);
             //listMessages.ItemsSource = updateCollection;
-            
+
             //updateCollection.CollectionChanged += (sender, e) =>
             //{
             //    var target = updateCollection[updateCollection.Count - 1];

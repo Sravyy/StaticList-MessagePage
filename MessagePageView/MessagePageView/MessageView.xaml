@@ -16,7 +16,12 @@
                 <DataTemplate x:Key="FromTemplate">
                     <ViewCell>
                         <ViewCell.View>
-                            <Frame Grid.Row="0"  Grid.Column="1">
+                            <Frame Grid.Row="0"  
+                                   Grid.Column="1" 
+                                   CornerRadius="10"
+                                   Padding="2"
+                                   Margin="50,10,10,10"
+                                   HeightRequest="75">
                                 <Frame.HasShadow>
                                     <OnPlatform x:TypeArguments="x:Boolean" iOS="false" Android="true"/>
                                 </Frame.HasShadow>
@@ -31,8 +36,18 @@
                                     <Label Text="{Binding ToUser}" FontSize="10" TextColor="Purple"/>
                                 </StackLayout>-->
                                         
-                                        <Label Text="{Binding Message}" FontSize="10" />
-                                        <Label Grid.Row="1" FontSize="5" Grid.Column="1" HorizontalTextAlignment="End"  Text="{Binding TimeStamp, StringFormat='{0:MM/dd/yyyy hh:mm tt}'}" TextColor="Gray"></Label>
+                                        <Label Text="{Binding Message}"
+                                               FontSize="11"
+                                               HorizontalTextAlignment="Center"
+                                               VerticalOptions="FillAndExpand" />
+                                        <Label FontSize="5"
+                                                Grid.Column="1"
+                                                Grid.Row="0"
+                                                HorizontalTextAlignment="Center"
+                                                 Text="{Binding TimeStamp, StringFormat='{0:MM/dd/yyyy hh:mm tt}'}"
+                                                 TextColor="Gray"
+                                                BackgroundColor="White"
+                                                Margin="2"></Label>
                                     </StackLayout>
                                 <ic:CircleImage
                                     WidthRequest="40"
@@ -48,14 +63,20 @@
                 <DataTemplate x:Key="ToTemplate">
                     <ViewCell>
                         <ViewCell.View>
-                            <Frame Grid.Row="0"  Grid.Column="1" BackgroundColor="#03A9F4">
+                            <Frame Grid.Row="1"
+                               Grid.Column="1"
+                               BackgroundColor="Gray"
+                               CornerRadius="10"
+                               Padding="0"
+                               Margin="10,10,50,10"
+                               HeightRequest="75">
                                 <Frame.HasShadow>
                                     <OnPlatform x:TypeArguments="x:Boolean" iOS="false" Android="true"/>
                                 </Frame.HasShadow>
                                 <Frame.BackgroundColor>
                                     <OnPlatform x:TypeArguments="Color" iOS="#F5F5F5" Android="White"/>
                                 </Frame.BackgroundColor>
-                                <StackLayout Orientation="Horizontal"  >
+                                <StackLayout Orientation="Horizontal"   BackgroundColor="#007aff">
                                 <ic:CircleImage
                                     WidthRequest="40"
                                     HeightRequest="40"
@@ -68,8 +89,19 @@
                                     <Label Text="{Binding ToUser}" FontSize="10" TextColor="Purple"/>
                                 </StackLayout>-->
 
-                                        <Label Text="{Binding Message}" FontSize="10" />
-                                        <Label Grid.Row="1" FontSize="5" Grid.Column="1"  Text="{Binding TimeStamp, StringFormat='{0:MM/dd/yyyy hh:mm tt}'}" TextColor="Gray"></Label>
+                                        <Label Text="{Binding Message}"
+                                               FontSize="11"
+                                            HorizontalTextAlignment="Center"
+                                            VerticalOptions="FillAndExpand"
+                                            TextColor="White"
+                                               />
+                                        <Label FontSize="5"
+                                               Grid.Column="1"
+                                               Text="{Binding TimeStamp, StringFormat='{0:MM/dd/yyyy hh:mm tt}'}"
+                                               TextColor="White"
+                                               Grid.Row="0"
+                                               HorizontalTextAlignment="Center"
+                                               Margin="2"></Label>
                                     </StackLayout>
                                 </StackLayout>
                             </Frame>

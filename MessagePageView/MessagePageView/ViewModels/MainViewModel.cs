@@ -45,7 +45,7 @@ namespace MessagePageView.ViewModels
             set
             {
                 outgoingText = value;
-                OnPropertyChanged();
+               OnPropertyChanged();
             }
         }
 
