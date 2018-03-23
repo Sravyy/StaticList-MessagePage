@@ -29,7 +29,8 @@ namespace ContactsSms.Server
             return new Sms
             {
                 Message = OutGoingText,
-               // TimeStamp = DateTime.Now
+                TimeStamp = DateTime.Now,
+                Status = "Sent"
 
             };
                 

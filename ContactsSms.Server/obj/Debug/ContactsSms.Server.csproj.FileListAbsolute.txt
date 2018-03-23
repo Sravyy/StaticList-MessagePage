@@ -112,8 +112,8 @@ C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\bin\Microsoft.AI.Web.xml
+C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\obj\Debug\ContactsSms.Server.csprojResolveAssemblyReference.cache
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\obj\Debug\ContactsSms.Server.csproj.CoreCompileInputs.cache
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\obj\Debug\ContactsSms.Server.csproj.CopyComplete
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\obj\Debug\ContactsSms.Server.dll
 C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\obj\Debug\ContactsSms.Server.pdb
-C:\Users\SravanthiVelaga(Inte\Desktop\StaticList-MessagePage\ContactsSms.Server\obj\Debug\ContactsSms.Server.csprojResolveAssemblyReference.cache

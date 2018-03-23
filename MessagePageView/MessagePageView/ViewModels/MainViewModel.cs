@@ -1,5 +1,6 @@
 ﻿using MessagePageView.Models;
 using MessagePageView.Services;
+using MvvmHelpers;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -12,7 +13,7 @@ using Xamarin.Forms;
 
 namespace MessagePageView.ViewModels
 {
-    public class MainViewModel : INotifyPropertyChanged
+    public class MainViewModel : BaseViewModel
     {
 
         private List<SmsContactState> _contactList;
@@ -26,8 +27,8 @@ namespace MessagePageView.ViewModels
             }
         }
 
-        private ObservableCollection<Sms> _messageList;
-        public ObservableCollection<Sms> MessageList
+        private ObservableRangeCollection<Sms> _messageList;
+        public ObservableRangeCollection<Sms> MessageList
         {
             get { return _messageList; }
             set
@@ -52,14 +53,14 @@ namespace MessagePageView.ViewModels
 
         public MainViewModel()
         {
-            //ObservableCollection<Sms> myCollection = new ObservableCollection<Sms>(MessageList);
-         
+            MessageList = new ObservableRangeCollection<Sms>();
+
             SendCommand = new Command(() =>
             {
 
                 var Sms = SignalRClient.Instance.AddNewMessage(OutGoingText);
                 MessageList.Add(Sms);
-                OnPropertyChanged();
+                
                 OutGoingText = string.Empty;
 
 
@@ -70,18 +71,18 @@ namespace MessagePageView.ViewModels
         public void Load()
         {
             ContactList = SignalRClient.Instance.GetContacts();
-            MessageList = new ObservableCollection<Sms>(SignalRClient.Instance.GetMessages());
+            MessageList = new ObservableRangeCollection<Sms>(SignalRClient.Instance.GetMessages());
         }
-        #region INotifyPropertyChanged Members
-        public event PropertyChangedEventHandler PropertyChanged;
+        //#region INotifyPropertyChanged Members
+        //public event PropertyChangedEventHandler PropertyChanged;
 
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            var handler = PropertyChanged;
-            if (handler != null)
-                handler?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-        #endregion
+        //protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        //{
+        //    var handler = PropertyChanged;
+        //    if (handler != null)
+        //        handler?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        //}
+        //#endregion
 
 
     }

@@ -1,10 +1,11 @@
-﻿using System;
+﻿using MvvmHelpers;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace MessagePageView.Models
 {
-    public class SmsContactState
+    public class SmsContactState : ObservableObject
     {
         public int ContactId { get; set; }
         public string ContactName { get; set; }

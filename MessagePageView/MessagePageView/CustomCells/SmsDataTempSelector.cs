@@ -14,7 +14,7 @@ namespace MessagePageView
         protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
         {
             //Verifying if the Status is SENT, if sent, then it returns the FromTemplate orelse will Return ToTemplate
-
+           
             return ((Sms)item).Status.ToUpper().Equals("SENT") ? FromTemplate : ToTemplate; 
            
         }
