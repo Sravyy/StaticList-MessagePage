@@ -27,13 +27,13 @@ namespace MessagePageView
             listMessages.ItemsSource = this.MainViewModelMessageList.MessageList;
 
             //ObservableRangeCollection<Sms> updateCollection = new ObservableRangeCollection<Sms>(this.MainViewModelMessageList.MessageList);
-            //listMessages.ItemsSource = updateCollection;
+            var updateCollection = this.MainViewModelMessageList.MessageList;
 
-            //updateCollection.CollectionChanged += (sender, e) =>
-            //{
-            //    var target = updateCollection[updateCollection.Count - 1];
-            //    listMessages.ScrollTo(target, ScrollToPosition.End, true);
-            //};
+            updateCollection.CollectionChanged += (sender, e) =>
+            {
+                var target = updateCollection[updateCollection.Count - 1];
+                listMessages.ScrollTo(target, ScrollToPosition.End, true);
+            };
         }
 
     
